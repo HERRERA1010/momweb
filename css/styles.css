@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: #8ac8ec;
+    height: 600px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    margin-right: 20px;
+    float: right;
+    margin-top: 20px;
+
+}
+
+.linkMenu{
+    font-size: 30px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight:lighter;
+
+}
+
+#logo{
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-color: white;
+    display: block;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#nombreLogo{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.fas{
+    font-size:70px;
+    color: white;
+}
+
+.fa-drumstick-bite{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+    opacity: 0.5;
+}
+
+.fa-utensils{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 950px;
+    opacity: 0.5;
+}
+
+.fa-cheese{
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    opacity: 0.5;
+}
+
+.fa-bacon{
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 1180px;
+    opacity: 0.5;
+}
+
+.seccion1{
+    background-color: #c2b092;
+    height: 350px;
+    width: 100%;
+}
+
+.seccion2{
+    background-color: #cfc5a5;
+    height: 850px;
+    width: 100%;
+}
